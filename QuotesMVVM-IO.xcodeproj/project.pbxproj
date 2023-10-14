@@ -16,6 +16,7 @@
 		F2D24B5B2ADB237D00F5CF55 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D24B5A2ADB237D00F5CF55 /* QuoteService.swift */; };
 		F2D24B5D2ADB23DA00F5CF55 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D24B5C2ADB23DA00F5CF55 /* QuoteModel.swift */; };
 		F2D24B5F2ADB25D000F5CF55 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D24B5E2ADB25D000F5CF55 /* QuoteViewModel.swift */; };
+		F2D24B612ADB344D00F5CF55 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D24B602ADB344D00F5CF55 /* NSMutableAttributedString+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F2D24B5A2ADB237D00F5CF55 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 		F2D24B5C2ADB23DA00F5CF55 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		F2D24B5E2ADB25D000F5CF55 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		F2D24B602ADB344D00F5CF55 /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		F2D24B452ADB217100F5CF55 /* QuotesMVVM-IO */ = {
 			isa = PBXGroup;
 			children = (
+				F2D24B602ADB344D00F5CF55 /* NSMutableAttributedString+Extension.swift */,
 				F2D24B462ADB217100F5CF55 /* AppDelegate.swift */,
 				F2D24B482ADB217100F5CF55 /* SceneDelegate.swift */,
 				F2D24B4A2ADB217100F5CF55 /* QuoteViewController.swift */,
@@ -151,6 +154,7 @@
 				F2D24B5B2ADB237D00F5CF55 /* QuoteService.swift in Sources */,
 				F2D24B4B2ADB217100F5CF55 /* QuoteViewController.swift in Sources */,
 				F2D24B5F2ADB25D000F5CF55 /* QuoteViewModel.swift in Sources */,
+				F2D24B612ADB344D00F5CF55 /* NSMutableAttributedString+Extension.swift in Sources */,
 				F2D24B472ADB217100F5CF55 /* AppDelegate.swift in Sources */,
 				F2D24B492ADB217100F5CF55 /* SceneDelegate.swift in Sources */,
 			);

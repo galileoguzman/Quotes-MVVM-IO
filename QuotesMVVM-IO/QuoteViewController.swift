@@ -47,7 +47,9 @@ class QuoteViewController: UIViewController {
             case .fetchQuoteDidFail(let error):
                 self.lblQuote.text = error.localizedDescription
             case .fetchQuoteDidSucceed(let quote):
-                self.lblQuote.text = "\(quote.content)\n\n\(quote.author)"
+                self.lblQuote.attributedText = NSMutableAttributedString()
+                    .normal("\(quote.content)\n\n")
+                    .bold(quote.author)
             case .toggleRefreshButton(let isEnabled):
                 self.btnRefresh.isEnabled = isEnabled
             }
